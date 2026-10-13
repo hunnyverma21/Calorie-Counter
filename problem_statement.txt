@@ -1,0 +1,21 @@
+PROJECT TITLE: Calorie Counter
+
+PROBLEM STATEMENT:
+People may find it difficult to keep track of the calories they consume throughout the day. This project provides a simple command-line application where users can enter food items, calories per serving, and serving quantities. The program calculates the calories consumed, displays a daily total, and compares that total with a user-defined calorie goal.
+
+OBJECTIVES:
+1. Allow users to enter a daily calorie goal.
+2. Record food items and their estimated calorie values.
+3. Calculate total calories for multiple servings.
+4. Display total calories consumed and remaining calories relative to the goal.
+5. Handle invalid numeric input gracefully.
+
+TOOLS USED:
+- Python
+- Built-in datetime module
+
+EXPECTED OUTPUT:
+A menu-driven calorie tracker that displays food entries and a running daily calorie summary.
+
+LIMITATIONS:
+Data is not saved after the program closes. Calorie values are user-provided estimates and may not be exact.
